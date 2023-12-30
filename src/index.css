@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    height: 60vh !important;
+    background-color: #1a1a1a !important;
+
+}
+.MobileNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MobileNavbar a{
+    /* font-size: 17px; */
+    padding: 9px 0;
+}
+
+/* flex justify-center items-center flex-col */
